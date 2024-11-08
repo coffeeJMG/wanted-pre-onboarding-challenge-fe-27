@@ -1,0 +1,25 @@
+
+
+.headerContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+       
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.headerBtn {
+
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 16px;
+}
